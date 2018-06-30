@@ -7,5 +7,12 @@ int main () {
   int b = 6;
   
   int c = a + b;
-  std::cout << "The value of c is " << c;
+  std::cout<<"The value of c is "<<c;
+  
+  int d;
+  cout<<"Please enter a value = ";
+  cin>>a;
+  std::cout<<"The value of d is "<<d;
 }
+
+

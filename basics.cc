@@ -13,6 +13,14 @@ int main () {
   cout<<"Please enter a value = ";
   cin>>a;
   std::cout<<"The value of d is "<<d;
+
+  int e=5;
+  
+  if(e==5){
+    cout<<"The value of e is 5"; 
+  } else {
+    cout<<"The value of e is not 5";   
+  }
 }
 
 

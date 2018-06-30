@@ -21,6 +21,11 @@ int main () {
   } else {
     cout<<"The value of e is not 5";   
   }
+
+  while(e>0) {
+    cout<<"The value of e is"<<e<<endl;
+    e--:
+  }
 }
 
 

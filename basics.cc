@@ -26,6 +26,15 @@ int main () {
     cout<<"The value of e is"<<e<<endl;
     e--:
   }
+
+  // Switch statement
+  char f = "C";
+  
+  switch(f) {
+      
+  }
+
 }
+
 
 

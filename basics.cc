@@ -31,7 +31,17 @@ int main () {
   char f = "C";
   
   switch(f) {
+    case 'A':
       
+      break;
+    case 'B':
+      
+      break;
+    case 'C':
+      
+      break;
+    default:
+    
   }
 
 }

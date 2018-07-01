@@ -53,6 +53,9 @@ int main () {
   bool j = true;
   char k = 'Z';
   
+  cout<<"This is my first program in C++/n";
+  getch(); // Takes a single character as input
+  
   return 0;
 }
 

@@ -27,6 +27,9 @@ int main () {
     e--:
   }
 
+  const int g = 1;
+  cout<<"The value of g is "<<g<<endl;
+  
   // Switch statement
   char f = "C";
   

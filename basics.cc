@@ -26,9 +26,6 @@ int main () {
     cout<<"The value of e is"<<e<<endl;
     e--:
   }
-
-  const int g = 1;
-  cout<<"The value of g is "<<g<<endl;
   
   // Switch statement
   char f = "C";
@@ -46,7 +43,16 @@ int main () {
     default:
       cout<<"Invalid character"<<endl;
   }
+  
+  const int g = 1;
+  cout<<"The value of g is "<<g<<endl;
 
+  // Data types 
+  int h = 1;
+  float i = 1.1;
+  bool j = true;
+  char k = 'Z';
+  
   return 0;
 }
 

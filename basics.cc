@@ -44,6 +44,7 @@ int main () {
       cout<<"Invalid character"<<endl;
   }
 
+  return 0;
 }
 
 

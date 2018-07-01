@@ -41,7 +41,7 @@ int main () {
       cout<<"The value is C"<<endl;
       break;
     default:
-    
+      cout<<"Invalid character"<<endl;
   }
 
 }

@@ -32,13 +32,13 @@ int main () {
   
   switch(f) {
     case 'A':
-      
+      cout<<"The value is A"<<endl;
       break;
     case 'B':
-      
+      cout<<"The value is B"<<endl;
       break;
     case 'C':
-      
+      cout<<"The value is C"<<endl;
       break;
     default:
     

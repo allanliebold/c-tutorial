@@ -2,7 +2,6 @@
 using namespace std;
 
 int main () {
-  // We are defining 2 variables
   int a = 5;
   int b = 6;
   

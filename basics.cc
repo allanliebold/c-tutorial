@@ -45,6 +45,7 @@ int main () {
   }
   
   const int g = 1;
+  
   cout<<"The value of g is "<<g<<endl;
 
   // Data types 

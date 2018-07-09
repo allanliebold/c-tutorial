@@ -10,6 +10,7 @@ int main () {
   std::cout<<"The value of c is "<<c;
   
   int d;
+  
   cout<<"Please enter a value = ";
   cin>>a;
   std::cout<<"The value of d is "<<d;

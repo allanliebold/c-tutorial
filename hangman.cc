@@ -15,6 +15,30 @@ int main() {
   cin>>wordToGuess;
   
   while (lives <=5 && strcmp(guessedWord, wordToGuess) != 0) {
+    none=0;
+    cout<<endl<<"Please guess a letter: ";
+    cin>>letter;
     
+    for(int n=0; n<50; n++) {
+      if(wordToGuess[n] == letter) {
+        guessedWord[n] = wordToGuess[n];
+        none=1;
+      }
+      if(none<1) {
+        lives = lives + 1;
+        cout<<"Try again!"<<endl;
+      }
+      
+      if(lives > 5) {
+        cout<<endl"You lose!";
+      } else {
+        cout<<endl<<"You win!";
+      }
+      
+      getch();
+      
+      return 0;
+      
+    }
   }
 }

@@ -5,5 +5,6 @@
 using namespace std;
 
 int main() {
+  string s = "C++ is fun to learn.";
   
 }

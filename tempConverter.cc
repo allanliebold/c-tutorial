@@ -11,11 +11,9 @@ int main()
   cout<<"Enter the degrees in Celsius: "<<endl;
   
   cin>>c;
-  
   f=c*1.8+32;
   
   cout<<"The temperature in Fahrenheit is "<<f;
   getch();
-  
   return 0;
 }

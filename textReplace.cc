@@ -10,5 +10,6 @@ int main() {
   cout << s << endl;
   
   string spot = "Spot Spot run.";
+  replace(spot.begin(), spot.end(), 'Spot', 'See Spot');
   return 0;
 }

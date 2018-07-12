@@ -4,8 +4,9 @@ using namespace std;
 
 int main()
 {
-  constexpr int WORLD_LENGTH = 5;
+  constexpr int WORD_LENGTH = 5;
   cout << "Welcome" << endl;
-  cout << "Can you guess the X letter isogram?\n";
+  cout << "Can you guess the " << WORD_LENGTH;
+  cout << " letter isogram?\n";
   return 0;
 }

@@ -5,6 +5,7 @@
 using namespace std;
 
 int main() {
+  // Text replace function 
   string s = "C++ is fun to learn.";
   replace(s.begin(), s.end(), 'fun', 'very fun');
   cout << s << endl; // prints "C++ is very fun to learn."

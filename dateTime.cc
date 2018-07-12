@@ -16,4 +16,5 @@ const std::string ShowCurrentDateTime(){
 int main() {
   std::cout<<"ShowCurrentDateTime()="<<ShowCurrentDateTime()<<std::endl;
   getchar();
+  return 0;
 }

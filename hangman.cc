@@ -34,7 +34,6 @@ int main() {
       } else {
         cout<<endl<<"You win!";
       }
-      
       getch();
       
       return 0; 

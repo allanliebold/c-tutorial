@@ -9,7 +9,6 @@ const std::string ShowCurrentDateTime(){
   char buf[80];
   
   strftime(buf, sizeof(buf), "%Y-%m-%d.%X", &struct);
-  
   return buf;
 }
 
